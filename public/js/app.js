@@ -59,7 +59,7 @@ weatherForm.addEventListener('submit', (e) => {
 		else
 		{
 			message1.textContent = "Top Results:";
-			movieTitle.textContent = data.movies.movieTitle;
+			movieTitle.textContent = data.movie.movieTitle;
 			//currentWeather.textContent = data.weather.currentDescription;
 			message2.textContent = "Current Temperature: ";
 			//currentTemp.textContent = data.weather.currentTemp + "° F";
