@@ -50,7 +50,7 @@ weatherForm.addEventListener('submit', (e) => {
 	currentTime.textContent = '';
 	
 	// use fetch to display the weather conditions for the city of choice
-	fetch('http://localhost:3000/movies?searchTerm='+searchTerm).then((response) => {
+	fetch('/weather?searchTerm='+searchTerm).then((response) => {
 	// jsonify the response
 	response.json().then((data) => {
 		//console.log(data);
