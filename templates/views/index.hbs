@@ -1,0 +1,35 @@
+<html>
+
+	<head>
+		<title>Home Page</title>
+		<link rel="icon" href="/images/weathericon.jpg">
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+	
+	<body>
+		<div class="main-content">
+		{{>header}}
+		
+			<h2>Use this site to get your weather!</h2>
+			
+			<form>
+				<input placeholder="Enter a movie">
+				<button>Search</button>
+			</form>
+			
+			<div id="message1"></div>
+			<div id="movieTitle"></div><br>
+			<div id="currentWeather"></div><br>
+			<div id="message2"></div>
+			<div id="currentTemp"></div><br>
+			<div id="message3"></div>
+			<div id="feelsLikeTemp"></div><br>
+			<div id="message4"></div>
+			<div id="currentTime"></div><br>
+			
+		</div>
+		{{>footer}}
+		<script src="/js/app.js"></script>
+	</body>
+
+</html>
