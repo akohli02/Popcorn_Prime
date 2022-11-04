@@ -131,10 +131,10 @@ app.get('*', (req, res) => {
 
 // add a function as an argument which can tell what happens when
 // the server is loaded
-app.listen(3000, () =>{
-	console.log('Server is live on port 3000.');
-	console.log('Open your web browser and go to the following URL - localhost:3000');
-	console.log('To exit, come back to Node.js command prompt and enter Ctrl+C');
+app.listen(process.env.PORT || 3000, () =>{
+	console.log('TESTING ONLY - Server is live on port 3000.');
+	console.log('TESTING ONLY - Open your web browser and go to the following URL - localhost:3000');
+	console.log('TESTING ONLY - To exit, come back to Node.js command prompt and enter Ctrl+C');
 });
 
 
