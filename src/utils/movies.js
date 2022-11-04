@@ -19,7 +19,7 @@ let movies = (searchTerm, callback) => {
 			// callback
 			callback(undefined, {
 				//movieID: response.body.results.id, 
-				movieTitle: response.results.title
+				movieTitle: response.body.results.id
 				/**moviePosterPath: response.body.results.backdrop_path, 
 				movieReleaseDate:  response.body.results.release_date,
 				movieRatings: response.body.results.vote_average, 
